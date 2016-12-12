@@ -1,0 +1,33 @@
+- Lunes:
+	- Presentacion.
+	- Instalar VirtualBox
+	- Hacer la maquina virtual con ubuntu.
+	- Explicacion de como funcionan los permisos.
+	- Primeros 5 minutos con el VPS
+		- https://plusbryan.com/my-first-5-minutes-on-a-server-or-essential-security-for-linux-servers
+	- Hardening SSH.
+		- https://www.cyberciti.biz/tips/linux-unix-bsd-openssh-server-best-practices.html
+	- Port Knocking
+		- https://help.ubuntu.com/community/PortKnocking
+		- https://joost.vunderink.net/blog/2015/05/07/hiding-your-sshd-with-ufw-and-knockd-on-ubuntu/
+	- Intercambio de Archivos por ssh
+		- scp
+		- rsync
+	- Configuracion de ssh keys.
+- Martes:
+	- Instalacion de Apache.
+	- Instalacion de PHP.
+	- Hardening Apache y PHP.
+		- https://www.thefanclub.co.za/how-to/how-secure-ubuntu-1604-lts-server-part-1-basics
+	- Correr Apache con jail (chroot).
+- Miercoles:
+	- Instalando y configurando SELinux.
+- Jueves:
+	- Instalando y configurando ModSecurity.
+	- Haciendo reglas para ModSecurity.
+	- Instalando las reglas de Trustwave.
+	- Probando sqlmap inyeccion sql, xss.
+- Viernes:
+	- Haciendo pruebas para comprobar nuestras configuraciones.
+	- Configurando HA-Proxy como load Balancer.
+	- Haciendo un Load Balancer por DNS.
